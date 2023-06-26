@@ -4,6 +4,8 @@
 #include <WTypesbase.h>
 #include <webauthn.h>
 #include <vector>
+
+#include "../cpp-base64/base64.h"
 using namespace std;
 
 constexpr unsigned int shash(const wchar_t* s, int off = 0) {
